@@ -17,30 +17,55 @@
 
 */ 
 
-const id=Symbol('123')
-const anotherId=Symbol('123');
+// const id=Symbol('123')
+// const anotherId=Symbol('123');
 
-console.log(id===anotherId);
+// console.log(id===anotherId);
 
-const bigNumber=52537135671358137912n;
+// const bigNumber=52537135671358137912n;
 
 
 
 //Arrays, Objects and Functions
 
-const fruits=["Apple", "Mango", "Banana"];
-let myObj={
-    name: "Sakshi",
-    age: 19,
+// const fruits=["Apple", "Mango", "Banana"];
+// let myObj={
+//     name: "Sakshi",
+//     age: 19,
 
+// }
+
+// console.log(typeof myObj);
+// console.table(fruits);
+
+// const myFunction=function(){
+//     console.log("Hello world");
+// }
+
+// console.log(typeof myFunction);
+// console.log(typeof id);
+
+//************************************************* 
+
+//          Memory Allocation
+// Stack(Primitive Data Types) Heap(Non-Primitive)
+
+let myName="Sakshi"
+
+let anotherName=myName;
+anotherName="Khushi"
+
+console.log(myName);
+console.log(anotherName);
+
+let user1={
+    email:"user@gmail.com",
+    UPI: "user@ybl",
 }
 
-console.log(typeof myObj);
-console.table(fruits);
+let userTwo=user1;
 
-const myFunction=function(){
-    console.log("Hello world");
-}
+userTwo.email="sakshi@gmail.com"
 
-console.log(typeof myFunction);
-console.log(typeof id);
+console.log(user1.email);
+console.log(userTwo.email);
