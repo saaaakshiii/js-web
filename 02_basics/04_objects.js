@@ -73,5 +73,16 @@ const {flowerName: fn1}= flower
 // console.log(flowerName);
 console.log(fn1);
 
+// JSON API
 
-// const navbar=()
+// {
+//     "name":"Rose",
+//     "color":"Pink",
+//     "type" :"Shrub"
+// }
+
+// [
+//     {},
+//     {},
+//     {}
+// ]
