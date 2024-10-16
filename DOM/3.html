@@ -16,6 +16,20 @@
 </body>
 
 <script>
-    document.createElement('div')
+
+    const div1=document.createElement('div')
+    console.log(div1);
+    div1.className="main" 
+    div1.id="myId"
+    div1.id=Math.round(Math.random()*10+1);
+    div1.setAttribute("title", "generated title")
+    div1.style.backgroundColor="green"
+    div1.style.padding="5px"
+    // div1.innerText="SAKSHI"
+    
+    const addText=document.createTextNode("Sakshi")
+    div1.appendChild(addText)
+
+    document.body.appendChild(div1)
 </script>
 </html>
