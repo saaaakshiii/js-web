@@ -48,6 +48,7 @@ buttons.forEach(function (button){
   })
 })
 
+```
 # project 2
 
 const form = document.querySelector('form');
@@ -82,6 +83,7 @@ form.addEventListener('submit', function (e) {
   }
 });
 
+
 # Digital clock
 
 const clock = document.getElementById('clock');
@@ -91,6 +93,8 @@ setInterval(function () {
   // console.log(date.toLocaleTimeString());
   clock.innerHTML=date.toLocaleTimeString();
 }, 1000);
+
+```
 
 ## Guess the number
 
