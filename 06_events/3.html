@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Chai aur JS</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+</body>
+
+<script>
+    let intervalid;
+
+    document.querySelector("#start").addEventListener("click", ()=>{
+
+        if(!intervalid){
+            intervalid=setInterval(()=>{
+                console.log("Sakshi", Date.now());
+            },1000)
+        }
+    })
+
+    document.querySelector("#stop").addEventListener("click", function(){
+        clearInterval(intervalid);
+        // intervalid=NULL;
+    })
+</script>
+</html>
