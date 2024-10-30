@@ -190,7 +190,8 @@ function newGame() {
   });
 }
 
-```
+```javascript
+
 #project 5- keyboard
 
 const insert = document.getElementById('insert');
@@ -214,7 +215,8 @@ window.addEventListener('keydown', (e) => {
   `;
 });
 
-```
+```javascript
+
 # project 6- random bg color
 
 //generate a random color
